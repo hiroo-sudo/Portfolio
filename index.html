@@ -3,119 +3,255 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hiranmayi Rachamalli's Portfolio</title>
+  <title>Hiranmayi Rachamalli | Cybersecurity Professional</title>
   <link rel="stylesheet" href="CSS/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
-  <script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';</script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header>
-    <h1>hiranmayir.com</h1>
-  </header>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">🛡️</span>
+        <span class="logo-text">Hiranmayi R.</span>
+      </div>
+      <div class="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link contact-btn">Contact</a>
+      </div>
+    </div>
+  </nav>
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="content-wrapper">
-      <div class="terminal-text">
-        <span class="prompt">> </span>
-        <span class="text">Hello World! I'm Hiranmayi Rachamalli</span>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-greeting">
+          <span class="wave">👋</span>
+          <span>Hello! I'm</span>
+        </div>
+        <h1 class="hero-name">Hiranmayi Rachamalli</h1>
+        <h2 class="hero-title">
+          <span class="highlight">Cybersecurity Professional</span>
+        </h2>
+        <p class="hero-description">
+          Master's student specializing in Cloud Security, Penetration Testing, and Network Security.
+          Passionate about protecting digital assets and building secure, resilient systems for a safer online ecosystem.
+        </p>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-number">8+</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Security Tools</div>
+          </div>
+        </div>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-folder-open"></i>
+            View My Work
+          </a>
+          <a href="mailto:hiranmayigovardhan@gmail.com" class="btn btn-secondary">
+            <i class="fas fa-envelope"></i>
+            Get in Touch
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/hiranmayi-r-79b433216/" target="_blank" class="social-link linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/hiroo-sudo" target="_blank" class="social-link github">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:hiranmayigovardhan@gmail.com" class="social-link email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
       </div>
-      <h2>👩‍💻 Cybersecurity </h2>
-      <p>A dedicated Cybersecurity Master's student specializing in creating secure and robust digital solutions for a safer online ecosystem. Passionate about protecting digital assets and ensuring cyber resilience.</p>
-      <a href="#projects" class="cta-button">Explore My Work</a>
-      <div class="social-links">
-        <div id="linkedin" class="social-btn flex-center">
-          <i class="fab fa-linkedin"></i>
-          <span><a href="https://www.linkedin.com/in/hiranmayi-r-79b433216/" target="_blank">LinkedIn</a></span>
-        </div>
-        <div id="github" class="social-btn flex-center">
-          <i class="fab fa-github"></i>
-          <span><a href="https://github.com/hiroo-sudo" target="_blank">GitHub</a></span>
-        </div>
-        <div id="gmail" class="social-btn flex-center">
-          <i class="fas fa-envelope"></i>
-          <span><a href="mailto:hiranmayigovardhan@gmail.com">Email</a></span>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="Images/3.jpeg" alt="Hiranmayi Rachamalli">
+          <div class="image-decoration"></div>
         </div>
       </div>
     </div>
-    <div class="hero-image">
-      <img src="Images/3.jpeg" alt="Hiranmayi Rachamalli's Photo">
+    <div class="scroll-indicator">
+      <div class="scroll-text">Scroll to explore</div>
+      <div class="scroll-arrow">↓</div>
     </div>
   </section>
 
   <!-- About Section -->
-  <section class="about">
-    <h3>About Me</h3>
-    <div class="about-content">
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Dedicated to cybersecurity excellence</p>
+      </div>
+
       <div class="about-grid">
         <div class="about-card">
-          <div class="card-icon">
-            <i class="fas fa-cloud"></i>
+          <div class="card-icon cloud">
+            <i class="fas fa-cloud-upload-alt"></i>
           </div>
-          <h4>Cloud Security</h4>
-          <div class="card-content">
-            <p>🌟 Experienced Cloud Security Engineer Intern with expertise in AWS environments. Skilled in security assessments, threat monitoring, and implementing protective measures using AWS tools like Inspector, GuardDuty, IAM, and CloudTrail.</p>
-            <div class="tech-stack">
-              <span>AWS</span>
-              <span>CloudWatch</span>
-              <span>Lambda</span>
-              <span>IAM</span>
-            </div>
+          <h3>Cloud Security Expert</h3>
+          <p>Experienced Cloud Security Engineer Intern with deep expertise in AWS environments. Proficient in security assessments, threat monitoring, and implementing protective measures using AWS Inspector, GuardDuty, IAM, CloudTrail, and CloudWatch.</p>
+          <div class="tech-badges">
+            <span class="badge">AWS</span>
+            <span class="badge">CloudWatch</span>
+            <span class="badge">Lambda</span>
+            <span class="badge">IAM</span>
+            <span class="badge">GuardDuty</span>
           </div>
         </div>
-        
+
         <div class="about-card">
-          <div class="card-icon">
+          <div class="card-icon security">
             <i class="fas fa-shield-alt"></i>
           </div>
-          <h4>Security Expertise</h4>
-          <div class="card-content">
-            <p>💻 Proficient in identifying and remediating vulnerabilities across web applications. Led projects in network security attacks, steganography, and computer security using tools like Nmap, Wireshark, Burp Suite, and Metasploit.</p>
-            <div class="tech-stack">
-              <span>Penetration Testing</span>
-              <span>Vulnerability Assessment</span>
-              <span>Network Security</span>
-              <span>Ethical Hacking</span>
-            </div>
+          <h3>Security & Penetration Testing</h3>
+          <p>Skilled in identifying and remediating vulnerabilities across web applications and networks. Led comprehensive projects in network security, steganography, and computer security using industry-standard tools.</p>
+          <div class="tech-badges">
+            <span class="badge">Nmap</span>
+            <span class="badge">Wireshark</span>
+            <span class="badge">Burp Suite</span>
+            <span class="badge">Metasploit</span>
           </div>
         </div>
-        
+
         <div class="about-card">
-          <div class="card-icon">
+          <div class="card-icon code">
             <i class="fas fa-code"></i>
           </div>
-          <h4>Technical Skills</h4>
-          <div class="card-content">
-            <p>🌍 Managed AWS Cloud governance projects, optimizing resources and ensuring compliance. Technical proficiency includes Python, SQL, and experience with EC2, Lambda, S3, DynamoDB, and SQS.</p>
-            <div class="tech-stack">
-              <span>Python</span>
-              <span>SQL</span>
-              <span>EC2</span>
-              <span>S3</span>
-            </div>
+          <h3>Technical Proficiency</h3>
+          <p>Strong programming and cloud infrastructure skills. Managed AWS Cloud governance projects, optimizing resources and ensuring compliance through automation and best practices.</p>
+          <div class="tech-badges">
+            <span class="badge">Python</span>
+            <span class="badge">SQL</span>
+            <span class="badge">EC2</span>
+            <span class="badge">S3</span>
+            <span class="badge">DynamoDB</span>
           </div>
         </div>
-        
-        <div class="about-card">
-          <div class="card-icon">
-            <i class="fas fa-graduation-cap"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">Academic foundation in cybersecurity</p>
+      </div>
+
+      <div class="education-timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">August 2023 - May 2025</div>
+            <h3>Master's of Science in Cybersecurity</h3>
+            <p class="institution">The George Washington University</p>
+            <p class="description">Advanced studies in network security, cloud security, cryptography, and ethical hacking.</p>
           </div>
-          <h4>Education</h4>
-          <div class="card-content">
-            <p>🎓 Currently pursuing Master's of Science in Cybersecurity at George Washington University (August 2023 - May 2025).</p>
-            <div class="education-timeline">
-              <div class="timeline-item">
-                <span class="year">2023-2025</span>
-                <span class="degree">MS in Cybersecurity</span>
-              </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">August 2018 - August 2022</div>
+            <h3>Bachelor of Engineering in Computer Science</h3>
+            <p class="institution">BMS Institute of Technology and Management</p>
+            <p class="description">Comprehensive foundation in computer science, software engineering, and security fundamentals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-subtitle">Building secure digital solutions</p>
+      </div>
+
+      <div class="experience-grid">
+        <div class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Cloud Engineer (Network)</h3>
+              <p class="company">Business Intelli Solutions</p>
             </div>
+            <div class="duration">Jan 2023 - Jun 2023</div>
           </div>
+          <p class="experience-description">
+            Led cloud infrastructure security initiatives, implementing network security protocols and monitoring solutions.
+          </p>
+        </div>
+
+        <div class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Penetration Tester</h3>
+              <p class="company">Avensys Consulting</p>
+            </div>
+            <div class="duration">Aug 2022 - Oct 2022</div>
+          </div>
+          <p class="experience-description">
+            Conducted security assessments and penetration testing to identify and remediate vulnerabilities in client systems.
+          </p>
+        </div>
+
+        <div class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Junior Software Engineer</h3>
+              <p class="company">TechFortune Learning</p>
+            </div>
+            <div class="duration">Sep 2021 - Oct 2021</div>
+          </div>
+          <p class="experience-description">
+            Developed secure software solutions with focus on code quality and security best practices.
+          </p>
+        </div>
+
+        <div class="experience-card highlight">
+          <div class="experience-header">
+            <div>
+              <h3>Founder</h3>
+              <p class="company">Jagruti - Social Media Awareness</p>
+            </div>
+            <div class="duration">Sep 2021 - Feb 2024</div>
+          </div>
+          <p class="experience-description">
+            Led social media awareness initiatives focusing on mental health, digital safety, and social causes, building a community-driven platform.
+          </p>
+        </div>
+
+        <div class="experience-card highlight">
+          <div class="experience-header">
+            <div>
+              <h3>Founder</h3>
+              <p class="company">Self Organization</p>
+            </div>
+            <div class="duration">Nov 2019 - Apr 2021</div>
+          </div>
+          <p class="experience-description">
+            Focused on student education in government schools, mental health awareness programs, and pandemic response initiatives.
+          </p>
         </div>
       </div>
     </div>
@@ -123,714 +259,470 @@
 
   <!-- Projects Section -->
   <section id="projects" class="projects">
-    <h3>Featured Projects</h3>
-    <div class="project-list">
-      <div class="project">
-        <div class="project-icon">
-          <i class="fas fa-shield-alt"></i>
-        </div>
-        <h4>Network Security & Penetration Testing</h4>
-        <p>Led comprehensive network security projects including vulnerability assessment, penetration testing, and security protocol implementation using tools like Nmap, Wireshark, and Burp Suite.</p>
-        <div class="project-tags">
-          <span>Network Security</span>
-          <span>Penetration Testing</span>
-          <span>Vulnerability Assessment</span>
-        </div>
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Cybersecurity initiatives & implementations</p>
       </div>
-      <div class="project">
-        <div class="project-icon">
-          <i class="fas fa-lock"></i>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h3>Network Security & Penetration Testing</h3>
+          <p>Comprehensive network security assessment project including vulnerability analysis, penetration testing, and security protocol implementation. Utilized industry-standard tools for threat detection and mitigation.</p>
+          <div class="project-tags">
+            <span class="tag">Network Security</span>
+            <span class="tag">Penetration Testing</span>
+            <span class="tag">Vulnerability Assessment</span>
+            <span class="tag">ARP Poisoning</span>
+            <span class="tag">VPN Tunneling</span>
+          </div>
+          <div class="project-tools">
+            <i class="fas fa-tools"></i>
+            <span>Nmap, Wireshark, Burp Suite</span>
+          </div>
         </div>
-        <h4>Data Steganography</h4>
-        <p>Developed advanced steganography techniques for secure data exchange through image and audio files, implementing LSB algorithm and other cryptographic methods.</p>
-        <div class="project-tags">
-          <span>Data Security</span>
-          <span>Cryptography</span>
-          <span>Steganography</span>
+
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-image"></i>
+          </div>
+          <h3>Image & Audio Steganography</h3>
+          <p>Advanced data hiding project implementing LSB (Least Significant Bit) algorithm for secure data exchange through image and audio files. Developed custom cryptographic methods for enhanced security.</p>
+          <div class="project-tags">
+            <span class="tag">Steganography</span>
+            <span class="tag">Cryptography</span>
+            <span class="tag">Data Security</span>
+            <span class="tag">LSB Algorithm</span>
+          </div>
+          <div class="project-tools">
+            <i class="fas fa-code"></i>
+            <span>Python, Cryptographic Libraries</span>
+          </div>
         </div>
-      </div>
-      <div class="project">
-        <div class="project-icon">
-          <i class="fab fa-aws"></i>
-        </div>
-        <h4>AWS Cloud Security</h4>
-        <p>Implemented comprehensive AWS Cloud governance framework using CloudWatch and Lambda for real-time compliance monitoring and security assessment.</p>
-        <div class="project-tags">
-          <span>AWS</span>
-          <span>Cloud Security</span>
-          <span>Compliance</span>
+
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fab fa-aws"></i>
+          </div>
+          <h3>AWS Cloud Security & Governance</h3>
+          <p>Implemented comprehensive AWS Cloud governance framework with real-time compliance monitoring and automated security assessments using CloudWatch, Lambda, and other AWS security services.</p>
+          <div class="project-tags">
+            <span class="tag">AWS Security</span>
+            <span class="tag">Cloud Governance</span>
+            <span class="tag">Compliance Monitoring</span>
+            <span class="tag">Automation</span>
+          </div>
+          <div class="project-tools">
+            <i class="fab fa-aws"></i>
+            <span>CloudWatch, Lambda, Inspector, GuardDuty</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Skills Section -->
-  <section class="skills">
-    <h3>Technical Skills</h3>
-    <ul>
-      <li><i class="fab fa-python"></i> Python</li>
-      <li><i class="fas fa-database"></i> SQL</li>
-      <li><i class="fab fa-html5"></i> HTML & CSS</li>
-      <li><i class="fas fa-network-wired"></i> Network Security</li>
-      <li><i class="fab fa-aws"></i> AWS Security</li>
-      <li><i class="fas fa-shield-alt"></i> Penetration Testing</li>
-      <li><i class="fas fa-search"></i> Vulnerability Assessment</li>
-      <li><i class="fas fa-code"></i> Ethical Hacking</li>
-      <li><i class="fas fa-lock"></i> Cryptography</li>
-      <li><i class="fas fa-cloud"></i> Cloud Security</li>
-    </ul>
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Comprehensive security toolkit</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>
+            <i class="fas fa-shield-alt"></i>
+            Security Tools
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Penetration Testing</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Vulnerability Assessment</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Network Security</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Ethical Hacking</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Nmap</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Wireshark</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Burp Suite</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Metasploit</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>
+            <i class="fab fa-aws"></i>
+            Cloud & Infrastructure
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>AWS Security</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Cloud Security</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>EC2</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>S3</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Lambda</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>CloudWatch</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>IAM</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>GuardDuty</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>
+            <i class="fas fa-code"></i>
+            Programming & Development
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>SQL</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>HTML & CSS</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-check"></i>
+              <span>Cryptography</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Certifications Section -->
   <section class="certifications">
-    <h3>Certifications</h3>
-    <ul>
-      <li>
-        <i class="fab fa-microsoft"></i>
-        <span>Microsoft Azure - Fundamentals</span>
-        <small>July 2024</small>
-      </li>
-      <li>
-        <i class="fas fa-network-wired"></i>
-        <span>CompTIA Network+</span>
-        <small>July 2024</small>
-      </li>
-      <li>
-        <i class="fas fa-shield-alt"></i>
-        <span>CompTIA Security+</span>
-        <small>July 2024</small>
-      </li>
-      <li>
-        <i class="fab fa-aws"></i>
-        <span>AWS Academy Cloud Security Builder</span>
-        <small>April 2024</small>
-      </li>
-      <li>
-        <i class="fas fa-lock"></i>
-        <span>Cybersecurity Foundations</span>
-        <small>2023</small>
-      </li>
-      <li>
-        <i class="fas fa-user-shield"></i>
-        <span>Ethical Hacking: Introduction</span>
-        <small>2023</small>
-      </li>
-    </ul>
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">Industry-recognized credentials</p>
+      </div>
+
+      <div class="certifications-grid">
+        <div class="cert-card">
+          <div class="cert-icon aws">
+            <i class="fab fa-aws"></i>
+          </div>
+          <h3>AWS Certified Solutions Architect</h3>
+          <p class="cert-date">2025</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon aws">
+            <i class="fab fa-aws"></i>
+          </div>
+          <h3>AWS Certified Cloud Practitioner</h3>
+          <p class="cert-date">2025</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon comptia">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>CompTIA Security+</h3>
+          <p class="cert-date">July 2024</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon comptia">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h3>CompTIA Network+</h3>
+          <p class="cert-date">July 2024</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon microsoft">
+            <i class="fab fa-microsoft"></i>
+          </div>
+          <h3>Microsoft Azure Fundamentals</h3>
+          <p class="cert-date">July 2024</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon aws">
+            <i class="fab fa-aws"></i>
+          </div>
+          <h3>AWS Academy Cloud Security Builder</h3>
+          <p class="cert-date">April 2024</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon security">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h3>Cybersecurity Foundations</h3>
+          <p class="cert-date">2023</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon ethical">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h3>Ethical Hacking: Introduction</h3>
+          <p class="cert-date">2023</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Languages Section -->
   <section class="languages">
-    <h3>Languages</h3>
-    <ul>
-      <li><i class="fas fa-language"></i> English (Full Professional)</li>
-      <li><i class="fas fa-language"></i> Hindi (Professional Working)</li>
-      <li><i class="fas fa-language"></i> Telugu (Native or Bilingual)</li>
-      <li><i class="fas fa-language"></i> Kannada (Professional Working)</li>
-    </ul>
-  </section>
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Languages</h2>
+        <p class="section-subtitle">Multilingual communication</p>
+      </div>
 
-  <!-- Experience Section -->
-  <section class="experience">
-    <h3>Experience</h3>
-    <div class="experience-list">
-      <div class="experience-item">
-        <h4>Cloud Engineer (Network)</h4>
-        <p class="company">Business Intelli Solutions</p>
-        <p class="duration">January 2023 - June 2023</p>
-      </div>
-      <div class="experience-item">
-        <h4>Penetration Tester</h4>
-        <p class="company">Avensys Consulting</p>
-        <p class="duration">August 2022 - October 2022</p>
-      </div>
-      <div class="experience-item">
-        <h4>Junior Software Engineer</h4>
-        <p class="company">TechFortune Learning</p>
-        <p class="duration">September 2021 - October 2021</p>
-      </div>
-      <div class="experience-item">
-        <h4>Founder</h4>
-        <p class="company">Jagruti - Social Media Awareness</p>
-        <p class="duration">September 2021 - February 2024</p>
-        <p class="description">Led social media awareness initiatives focusing on mental health and social causes.</p>
-      </div>
-      <div class="experience-item">
-        <h4>Founder</h4>
-        <p class="company">Self Organization</p>
-        <p class="duration">November 2019 - April 2021</p>
-        <p class="description">Focused on student education in government schools, mental health awareness, and pandemic response initiatives.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education Section -->
-  <section class="education">
-    <h3>Education</h3>
-    <div class="education-list">
-      <div class="education-item">
-        <h4>Master's of Science in Cybersecurity</h4>
-        <p class="institution">The George Washington University</p>
-        <p class="duration">August 2023 - May 2025</p>
-      </div>
-      <div class="education-item">
-        <h4>Bachelor of Engineering in Computer Science</h4>
-        <p class="institution">BMS Institute of Technology and Management</p>
-        <p class="duration">August 2018 - August 2022</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Interactive Cybersecurity Elements -->
-  <div class="cyber-elements">
-    <div class="matrix-rain"></div>
-    <div class="cyber-particles"></div>
-    <div class="cyber-grid"></div>
-    <div class="cyber-lines"></div>
-    <div class="network-traffic"></div>
-  </div>
-
-  <!-- Vulnerability Scanner -->
-  <div class="vulnerability-scanner">
-    <div class="scanner-header">
-      <i class="fas fa-search"></i>
-      <span>Vulnerability Scanner</span>
-      <div class="scanner-controls">
-        <button class="minimize-btn"><i class="fas fa-minus"></i></button>
-        <button class="refresh-btn"><i class="fas fa-sync-alt"></i></button>
-      </div>
-    </div>
-    <div class="scanner-content">
-      <div class="scan-progress">
-        <div class="progress-bar">
-          <div class="progress-fill"></div>
+      <div class="languages-grid">
+        <div class="language-card">
+          <i class="fas fa-globe"></i>
+          <h3>English</h3>
+          <p>Full Professional Proficiency</p>
         </div>
-        <span class="progress-text">Ready to Scan</span>
-      </div>
-      <button class="scan-button">Start Scan</button>
-      <div class="scan-results"></div>
-    </div>
-  </div>
-
-  <!-- Interactive Security Badge -->
-  <div class="security-badge">
-    <div class="badge-content">
-      <i class="fas fa-shield-alt"></i>
-      <span class="badge-text">Secure Connection</span>
-    </div>
-  </div>
-
-  <!-- Easter Egg Section -->
-  <div class="easter-egg">
-    <div class="binary-code">
-      <span>01001000 01101001 01110010 01100001 01101110 01101101 01100001 01111001 01101001</span>
-    </div>
-  </div>
-
-  <!-- Interactive Terminal Section -->
-  <section class="interactive-terminal">
-    <h3>Interactive Terminal</h3>
-    <div class="terminal-container">
-      <div class="terminal-header">
-        <span class="terminal-title">Hiranmayi's Security Terminal</span>
-        <div class="terminal-controls">
-          <span class="control close"></span>
-          <span class="control minimize"></span>
-          <span class="control maximize"></span>
+        <div class="language-card">
+          <i class="fas fa-globe"></i>
+          <h3>Telugu</h3>
+          <p>Native or Bilingual Proficiency</p>
         </div>
-      </div>
-      <div class="terminal-body">
-        <div class="terminal-output" id="terminal-output">
-          <div class="terminal-line">Welcome to Hiranmayi's Security Terminal v1.0</div>
-          <div class="terminal-line">Type 'help' to see available commands</div>
+        <div class="language-card">
+          <i class="fas fa-globe"></i>
+          <h3>Hindi</h3>
+          <p>Professional Working Proficiency</p>
         </div>
-        <div class="terminal-input-line">
-          <span class="prompt">> </span>
-          <input type="text" id="terminal-input">
+        <div class="language-card">
+          <i class="fas fa-globe"></i>
+          <h3>Kannada</h3>
+          <p>Professional Working Proficiency</p>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2>Let's Connect</h2>
+          <p>I'm always interested in discussing cybersecurity opportunities, collaborations, or just connecting with fellow security professionals.</p>
+
+          <div class="contact-methods">
+            <a href="mailto:hiranmayigovardhan@gmail.com" class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="method-details">
+                <h3>Email</h3>
+                <p>hiranmayigovardhan@gmail.com</p>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/hiranmayi-r-79b433216/" target="_blank" class="contact-method">
+              <div class="method-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div class="method-details">
+                <h3>LinkedIn</h3>
+                <p>Connect with me professionally</p>
+              </div>
+            </a>
+
+            <a href="https://github.com/hiroo-sudo" target="_blank" class="contact-method">
+              <div class="method-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="method-details">
+                <h3>GitHub</h3>
+                <p>View my code & projects</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-visual">
+          <div class="security-badge-large">
+            <i class="fas fa-shield-check"></i>
+            <h3>Protecting Digital Assets</h3>
+            <p>Dedicated to cybersecurity excellence</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Hiranmayi Rachamalli. All rights reserved.</p>
+        <p class="footer-tagline">Building a safer digital world, one security measure at a time.</p>
+      </div>
+    </div>
+  </footer>
 
   <script>
-    window.addEventListener('load', function() {
-      // Scroll to top on page load
-      window.scrollTo(0, 0);
-      
-      // Remove focus from terminal input
-      const terminalInput = document.getElementById('terminal-input');
-      terminalInput.blur();
-    });
-
-    // Terminal text animation
-    document.addEventListener('DOMContentLoaded', function() {
-      const text = document.querySelector('.terminal-text .text');
-      const originalText = text.textContent;
-      text.textContent = '';
-      let i = 0;
-
-      function typeWriter() {
-        if (i < originalText.length) {
-          text.textContent += originalText.charAt(i);
-          i++;
-          setTimeout(typeWriter, 100);
-        }
-      }
-
-      typeWriter();
-    });
-
-    // Smooth scroll for navigation
+    // Smooth scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
       });
     });
 
-    // Enhanced Matrix Rain Effect
-    const canvas = document.createElement('canvas');
-    canvas.classList.add('matrix-rain');
-    document.querySelector('.cyber-elements').appendChild(canvas);
-    const ctx = canvas.getContext('2d');
-
-    function resizeCanvas() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    }
-    resizeCanvas();
-    window.addEventListener('resize', resizeCanvas);
-
-    const matrix = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%";
-    const matrixArray = matrix.split("");
-    const fontSize = 10;
-    const columns = canvas.width/fontSize;
-    const drops = [];
-
-    for(let x = 0; x < columns; x++) {
-      drops[x] = 1;
-    }
-
-    function draw() {
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.04)';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      
-      ctx.fillStyle = '#0F0';
-      ctx.font = fontSize + 'px monospace';
-
-      for(let i = 0; i < drops.length; i++) {
-        const text = matrixArray[Math.floor(Math.random() * matrixArray.length)];
-        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-        
-        if(drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
-          drops[i] = 0;
-        }
-        drops[i]++;
+    // Navbar scroll effect
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
       }
-    }
+    });
 
-    setInterval(draw, 33);
-
-    // Enhanced Interactive Terminal
-    const terminalInput = document.getElementById('terminal-input');
-    const terminalOutput = document.getElementById('terminal-output');
-    let commandHistory = [];
-    let historyIndex = -1;
-    let currentMode = 'normal'; // normal, encrypt, decrypt
-
-    const commands = {
-      'help': `Available commands:
-  help     - Show this help message
-  about    - Learn about Hiranmayi
-  skills   - View technical skills
-  projects - List cybersecurity projects
-  contact  - Get contact information
-  scan     - Run a security scan
-  encrypt  - Encrypt a message
-  decrypt  - Decrypt a message
-  clear    - Clear terminal`,
-      
-      'about': `Hiranmayi Rachamalli
-------------------
-👩‍💻 Cybersecurity Enthusiast
-🎓 Master's Student in Cybersecurity
-🔒 Cloud Security Engineer Intern
-🌐 Passionate about securing digital frontiers
-💡 Specializing in AWS security and network protection`,
-      
-      'skills': `Technical Skills:
-----------------
-• Python Programming
-• AWS Security
-• Network Security
-• Vulnerability Assessment
-• Penetration Testing
-• Cloud Security
-• Security Tools (Nmap, Wireshark, Burp Suite)
-• MySQL Database
-• HTML & CSS`,
-      
-      'projects': `Featured Projects:
-----------------
-1. Internet Security
-   - Network security attacks
-   - ARP Cache Poisoning
-   - VPN Tunneling
-
-2. Image and Audio Steganography
-   - LSB algorithm implementation
-   - Secure data exchange
-
-3. AWS Cloud Governance
-   - Real-time compliance monitoring
-   - CloudWatch and Lambda integration`,
-      
-      'contact': `Contact Information:
-------------------
-📧 Email: hiranmayigovardhan@gmail.com
-🔗 LinkedIn: linkedin.com/in/hiranmayi-r-79b433216/
-💻 GitHub: github.com/hiroo-sudo`,
-      
-      'scan': () => {
-        const scanSteps = [
-          'Initializing security scan...',
-          'Checking system vulnerabilities...',
-          'Analyzing network security...',
-          'Scanning for malware...',
-          'Verifying firewall rules...',
-          'Checking for unauthorized access...',
-          'Scan complete! No critical vulnerabilities found.'
-        ];
-        
-        let output = '';
-        scanSteps.forEach((step, index) => {
-          setTimeout(() => {
-            output += `<div class="terminal-line">${step}</div>`;
-            terminalOutput.innerHTML = output;
-            terminalOutput.scrollTop = terminalOutput.scrollHeight;
-          }, index * 1000);
-        });
-        return '';
-      },
-      
-      'encrypt': () => {
-        currentMode = 'encrypt';
-        terminalOutput.innerHTML += `<div class="terminal-line">Enter text to encrypt:</div>`;
-        return '';
-      },
-      
-      'decrypt': () => {
-        currentMode = 'decrypt';
-        terminalOutput.innerHTML += `<div class="terminal-line">Enter text to decrypt:</div>`;
-        return '';
-      },
-      
-      'clear': () => {
-        terminalOutput.innerHTML = `
-          <div class="terminal-line">Welcome to Hiranmayi's Security Terminal v1.0</div>
-          <div class="terminal-line">Type 'help' to see available commands</div>`;
-        return '';
-      },
-      
-      'matrix': () => {
-        const matrixCanvas = document.querySelector('.matrix-rain');
-        matrixCanvas.style.opacity = matrixCanvas.style.opacity === '0.1' ? '0' : '0.1';
-        return 'Matrix effect toggled';
-      },
-      
-      'exit': () => {
-        document.querySelector('.interactive-terminal').style.display = 'none';
-        return 'Terminal closed';
-      }
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
     };
 
-    // Enhanced terminal input handling
-    terminalInput.addEventListener('keydown', function(e) {
-      if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        if (commandHistory.length > 0 && historyIndex < commandHistory.length - 1) {
-          historyIndex++;
-          this.value = commandHistory[commandHistory.length - 1 - historyIndex];
-        }
-      } else if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        if (historyIndex > 0) {
-          historyIndex--;
-          this.value = commandHistory[commandHistory.length - 1 - historyIndex];
-        } else {
-          this.value = '';
-          historyIndex = -1;
-        }
-      }
-    });
-
-    terminalInput.addEventListener('keypress', function(e) {
-      if (e.key === 'Enter') {
-        const input = this.value;
-        this.value = '';
-        
-        if (input.trim() === '') return;
-        
-        commandHistory.push(input);
-        historyIndex = -1;
-        
-        if (currentMode === 'encrypt') {
-          const encrypted = input.split('').map(char => 
-            String.fromCharCode(char.charCodeAt(0) + 1)
-          ).join('');
-          terminalOutput.innerHTML += `<div class="terminal-line">Encrypted: ${encrypted}</div>`;
-          currentMode = 'normal';
-        } else if (currentMode === 'decrypt') {
-          const decrypted = input.split('').map(char => 
-            String.fromCharCode(char.charCodeAt(0) - 1)
-          ).join('');
-          terminalOutput.innerHTML += `<div class="terminal-line">Decrypted: ${decrypted}</div>`;
-          currentMode = 'normal';
-        } else {
-          const command = input.toLowerCase();
-          if (commands[command]) {
-            const output = typeof commands[command] === 'function' 
-              ? commands[command]() 
-              : commands[command];
-            
-            if (command !== 'clear') {
-              terminalOutput.innerHTML += `<div class="terminal-line">
-                <span class="prompt">> </span>${command}
-              </div>${output ? `<div class="terminal-line">${output}</div>` : ''}`;
-            }
-          } else {
-            terminalOutput.innerHTML += `<div class="terminal-line">
-              <span class="prompt">> </span>${command}
-            </div>
-            <div class="terminal-line error">Command not found. Type 'help' for available commands.</div>`;
-          }
-        }
-        
-        terminalOutput.scrollTop = terminalOutput.scrollHeight;
-      }
-    });
-
-    // Security Badge Animation
-    const securityBadge = document.querySelector('.security-badge');
-    setInterval(() => {
-      securityBadge.classList.add('animate__animated', 'animate__pulse');
-      setTimeout(() => {
-        securityBadge.classList.remove('animate__animated', 'animate__pulse');
-      }, 1000);
-    }, 5000);
-
-    // Add hover effect to project cards
-    document.querySelectorAll('.project').forEach(project => {
-      project.addEventListener('mouseenter', function() {
-        this.style.transform = 'translateY(-10px) scale(1.02)';
-      });
-      
-      project.addEventListener('mouseleave', function() {
-        this.style.transform = 'translateY(0) scale(1)';
-      });
-    });
-
-    // Remove the typing effect for skills
-    document.querySelectorAll('.skills li').forEach(skill => {
-      skill.addEventListener('mouseenter', function() {
-        this.style.transform = 'translateX(5px)';
-      });
-      
-      skill.addEventListener('mouseleave', function() {
-        this.style.transform = 'translateX(0)';
-      });
-    });
-
-    // Network Traffic Visualization
-    const networkTraffic = document.querySelector('.network-traffic');
-    const trafficCanvas = document.createElement('canvas');
-    networkTraffic.appendChild(trafficCanvas);
-    const trafficCtx = trafficCanvas.getContext('2d');
-
-    function resizeTrafficCanvas() {
-      trafficCanvas.width = window.innerWidth;
-      trafficCanvas.height = window.innerHeight;
-    }
-    resizeTrafficCanvas();
-    window.addEventListener('resize', resizeTrafficCanvas);
-
-    const trafficPoints = [];
-    for(let i = 0; i < 50; i++) {
-      trafficPoints.push({
-        x: Math.random() * trafficCanvas.width,
-        y: Math.random() * trafficCanvas.height,
-        speed: Math.random() * 2 + 1,
-        size: Math.random() * 3 + 1
-      });
-    }
-
-    function drawTraffic() {
-      trafficCtx.fillStyle = 'rgba(0, 0, 0, 0.1)';
-      trafficCtx.fillRect(0, 0, trafficCanvas.width, trafficCanvas.height);
-      
-      trafficPoints.forEach(point => {
-        trafficCtx.fillStyle = '#0F0';
-        trafficCtx.beginPath();
-        trafficCtx.arc(point.x, point.y, point.size, 0, Math.PI * 2);
-        trafficCtx.fill();
-        
-        point.x += point.speed;
-        if(point.x > trafficCanvas.width) {
-          point.x = 0;
-          point.y = Math.random() * trafficCanvas.height;
-        }
-      });
-    }
-
-    setInterval(drawTraffic, 50);
-
-    // Vulnerability Scanner
-    const scanButton = document.querySelector('.scan-button');
-    const progressFill = document.querySelector('.progress-fill');
-    const progressText = document.querySelector('.progress-text');
-    const scanResults = document.querySelector('.scan-results');
-    const minimizeBtn = document.querySelector('.minimize-btn');
-    const refreshBtn = document.querySelector('.refresh-btn');
-    const scanner = document.querySelector('.vulnerability-scanner');
-    let scanInterval;
-    let isScanning = false;
-
-    const vulnerabilities = [
-      { type: 'SQL Injection', severity: 'High', status: 'Fixed' },
-      { type: 'XSS', severity: 'Medium', status: 'In Progress' },
-      { type: 'CSRF', severity: 'Low', status: 'Fixed' },
-      { type: 'File Upload', severity: 'High', status: 'Fixed' },
-      { type: 'Authentication', severity: 'Medium', status: 'Fixed' }
-    ];
-
-    minimizeBtn.addEventListener('click', function() {
-      scanner.classList.toggle('minimized');
-    });
-
-    refreshBtn.addEventListener('click', function() {
-      if (isScanning) {
-        clearInterval(scanInterval);
-        isScanning = false;
-      }
-      
-      // Reset progress bar
-      progressFill.style.width = '0%';
-      progressText.textContent = 'Ready to Scan';
-      
-      // Reset scan button
-      scanButton.disabled = false;
-      
-      // Clear results
-      scanResults.innerHTML = '';
-      
-      // Reset scanner state
-      scanner.classList.remove('minimized');
-      
-      // Visual feedback
-      this.style.color = '#00ff00';
-      setTimeout(() => {
-        this.style.color = '#00ff00';
-      }, 1000);
-    });
-
-    scanButton.addEventListener('click', function() {
-      if (!isScanning) {
-        this.disabled = true;
-        isScanning = true;
-        let progress = 0;
-        
-        scanInterval = setInterval(() => {
-          progress += 1;
-          progressFill.style.width = `${progress}%`;
-          
-          if(progress <= 20) progressText.textContent = 'Scanning Network...';
-          else if(progress <= 40) progressText.textContent = 'Checking Firewall...';
-          else if(progress <= 60) progressText.textContent = 'Analyzing Code...';
-          else if(progress <= 80) progressText.textContent = 'Testing Security...';
-          
-          if(progress >= 100) {
-            clearInterval(scanInterval);
-            isScanning = false;
-            this.disabled = false;
-            progressText.textContent = 'Scan Complete';
-            displayResults();
-          }
-        }, 50);
-      }
-    });
-
-    function displayResults() {
-      scanResults.innerHTML = vulnerabilities.map(vuln => `
-        <div class="vulnerability-item ${vuln.severity.toLowerCase()}">
-          <span class="vuln-type">${vuln.type}</span>
-          <span class="vuln-severity">${vuln.severity}</span>
-          <span class="vuln-status">${vuln.status}</span>
-        </div>
-      `).join('');
-    }
-
-    // Intersection Observer for section animations
-    const sections = document.querySelectorAll('section');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
         }
       });
-    }, {
-      threshold: 0.1
+    }, observerOptions);
+
+    // Observe all cards and sections
+    document.querySelectorAll('.about-card, .project-card, .experience-card, .cert-card, .skill-category, .timeline-item').forEach(el => {
+      observer.observe(el);
     });
 
-    sections.forEach(section => {
-      observer.observe(section);
-    });
-
-    // Enhanced hover effects for project cards
-    document.querySelectorAll('.project').forEach(card => {
-      card.addEventListener('mousemove', (e) => {
-        const rect = card.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        
-        card.style.setProperty('--mouse-x', `${x}px`);
-        card.style.setProperty('--mouse-y', `${y}px`);
+    // Scroll indicator
+    const scrollIndicator = document.querySelector('.scroll-indicator');
+    if (scrollIndicator) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+          scrollIndicator.style.opacity = '0';
+        } else {
+          scrollIndicator.style.opacity = '1';
+        }
       });
-    });
-
-    // Add loading animation for images
-    document.querySelectorAll('img').forEach(img => {
-      img.addEventListener('load', function() {
-        this.classList.add('loaded');
-      });
-    });
-
-    // Add typing effect to hero text
-    const heroText = document.querySelector('.hero h2');
-    const text = heroText.textContent;
-    heroText.textContent = '';
-    let i = 0;
-
-    function typeWriter() {
-      if (i < text.length) {
-        heroText.textContent += text.charAt(i);
-        i++;
-        setTimeout(typeWriter, 100);
-      }
     }
 
-    // Start typing effect when page loads
-    window.addEventListener('load', typeWriter);
+    // Mobile menu toggle
+    const createMobileMenu = () => {
+      const navMenu = document.querySelector('.nav-menu');
+      const navContainer = document.querySelector('.nav-container');
 
-    // Add scroll progress indicator
-    const progressBar = document.createElement('div');
-    progressBar.className = 'scroll-progress';
-    document.body.appendChild(progressBar);
+      const menuToggle = document.createElement('button');
+      menuToggle.className = 'menu-toggle';
+      menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+      menuToggle.setAttribute('aria-label', 'Toggle menu');
 
-    window.addEventListener('scroll', () => {
-      const windowHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const scrolled = (window.scrollY / windowHeight) * 100;
-      progressBar.style.width = `${scrolled}%`;
+      navContainer.appendChild(menuToggle);
+
+      menuToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        const icon = menuToggle.querySelector('i');
+        icon.className = navMenu.classList.contains('active') ? 'fas fa-times' : 'fas fa-bars';
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!navContainer.contains(e.target)) {
+          navMenu.classList.remove('active');
+          menuToggle.querySelector('i').className = 'fas fa-bars';
+        }
+      });
+
+      // Close menu when clicking on a link
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('active');
+          menuToggle.querySelector('i').className = 'fas fa-bars';
+        });
+      });
+    };
+
+    // Initialize mobile menu if on mobile
+    if (window.innerWidth <= 768) {
+      createMobileMenu();
+    }
+
+    // Re-initialize on resize
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        const existingToggle = document.querySelector('.menu-toggle');
+        if (window.innerWidth <= 768 && !existingToggle) {
+          createMobileMenu();
+        } else if (window.innerWidth > 768 && existingToggle) {
+          existingToggle.remove();
+          document.querySelector('.nav-menu').classList.remove('active');
+        }
+      }, 250);
     });
   </script>
 </body>
